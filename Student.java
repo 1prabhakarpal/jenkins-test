@@ -12,5 +12,10 @@ public class Student{
         System.out.println("Setting name: " + name);
         return this;
     }
+
+    Student getName(String name){
+        System.out.println("Getting name: " + name);
+        return this;
+    }
     
 }
