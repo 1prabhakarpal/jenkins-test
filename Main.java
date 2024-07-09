@@ -5,5 +5,9 @@ public class Main{
         System.out.println("output from java program");
         System.out.println(new Date());
         System.out.println("Added files");
+
+        Student student = new Student();
+        student.setName("John Doe");
+        System.out.println("Student Name: " + student.getName());
     }
 }
